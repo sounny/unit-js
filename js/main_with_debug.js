@@ -82,7 +82,6 @@ function addColumns(cityPop){
 
 			//Writes the stored citySize var into the array at each row
 			row.insertAdjacentHTML('beforeend','<td>' + citySize + '</td>');
-			console.log(citySize);
     	}
     });
 };
